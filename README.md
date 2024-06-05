@@ -1,24 +1,9 @@
-# README
+docker-compose build
+docker-compose up
+docker exec -it scholars_archive_5-server-1 bash
+bundle exec rails db:migrate
+./build/firstrun.sh
+rails generate hyrax:work_resource Default
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+create an account through sign in
+ingest a work
